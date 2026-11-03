@@ -1,0 +1,13 @@
+# 编译产物
+build/
+*.o
+*.out
+a.out
+
+# 运行结果（程序运行时自动创建）
+out/
+
+# 编辑器与系统杂项
+.vscode/
+*.swp
+.DS_Store
