@@ -9,6 +9,6 @@ if command -v cmake >/dev/null 2>&1; then
     make
     echo "编译完成：$(pwd)/rectangle"
 else
-    g++ -O2 -std=c++17 main.cpp -o rectangle `pkg-config --cflags --libs opencv4`
+    g++ -O2 -std=c++17 main.cpp detector.cpp output.cpp -o rectangle `pkg-config --cflags --libs opencv4`
     echo "编译完成：$(pwd)/rectangle"
 fi
