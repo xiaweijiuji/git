@@ -1,0 +1,14 @@
+# 请求：想识别哪种颜色（red / green / blue，也接受 红/绿/蓝）
+string color
+---
+# 响应：识别结果
+bool success
+string color
+int32 x
+int32 y
+int32 width
+int32 height
+uint32 pixels
+
+# 出错时的说明（成功时为空）
+string message
